@@ -1,10 +1,119 @@
-#parent{
-  
-    color: blue;
-
+.header{
+    display: flex;
+    justify-content:space-between ;
+    border: 1px solid black;
 }
-#h2{
-  
-    color: red;
 
+.logo{
+
+    width: 150px;
+    margin-top: o;
 }
+.cart{
+
+    width:80px ;
+    padding-top: -20%;
+    margin-top: -40%;
+    margin-right: -40%;
+}
+
+.nav-items >ul >li {
+ font-size: 35px;  
+ padding : 10px;
+ margin: 10px;
+}
+.nav-items >ul {
+    display: flex;
+    list-style-type: none;
+}
+.res-container {
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card {
+    
+    width: 210px;  
+    
+    background-color: gainsboro; 
+    padding: 5px;
+    margin: 7px;
+}
+.res-container :hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search {
+    padding: 5px ;
+}
+.res-img {
+    
+    width: 100%;
+    object-fit: cover; /* makes the image cover the area, may crop */
+  display: block; 
+  width: 200px;   /* set your desired width */
+  height: 200px;
+  text-align: center;
+    
+     
+}
+.res-features { 
+    padding-bottom: -10%;
+    margin-bottom: -10%;
+}
+.filter-button {
+
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(238, 111, 37);
+}
+
+.shimmer-container{
+     display: flex;
+     flex-wrap: wrap;
+}
+.shimemer-card{
+
+    width: 210px;  
+    height: 350px;
+    
+    background-color: gainsboro; 
+    padding: 5px;
+    margin: 7px;
+}
+.loginbtn{
+    padding : 0  20px;
+    height: 40px;
+    cursor: pointer;   
+}
+.filter{
+    display: flex;
+   
+}
+.search-btn{
+    padding-top: 10px;
+}
+.s-btn{
+    cursor: pointer;
+    background-color: rgb(238, 111, 37);
+}
+.cuisines {
+    font-size: 0.9rem;
+    color: #555;
+    white-space: nowrap;       /* keep it on one line */
+    overflow: hidden;          /* hide overflow text */
+    text-overflow: ellipsis;   /* add ... when text overflows */
+    display: block;            /* make it a block-level element */
+    max-width: 100%;           /* stay inside card width */
+  }
+  .name{
+    color: black
+  }
+  .costfortwo{
+    color: black
+  }
+  .avg-rating{
+    color: black
+  }
+  

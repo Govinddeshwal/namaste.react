@@ -1,0 +1,43 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is my first react code",
+  "source": "index.html",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "dev": "nodemon index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Govinddeshwal/namaste.react.git"
+  },
+  "author": "govind singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Govinddeshwal/namaste.react/issues"
+  },
+  "homepage": "https://github.com/Govinddeshwal/namaste.react#readme",
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "parcel": "^2.15.4",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.30.1"
+  }
+}
