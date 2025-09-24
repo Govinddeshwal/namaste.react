@@ -1,0 +1,7 @@
+const logo_url = ()=>{
+    return(
+        /Users/jeevandeshwal/Downloads/logoimg-removebg-preview.png
+    )
+}
+
+export default logo_url;

@@ -6,3 +6,6 @@ export const Logo_Url =
 
 export const Cart_Logo_Url =
   "https://img.freepik.com/premium-psd/3d-shopping-cart-food-with-buy-button-food-delivery-concept-from-online-store-icon-isolated-white-background-3d-rendering-illustration-clipping-path_696265-1634.jpg";
+
+export const MENU_API =
+  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=21.99740&lng=79.00110&restaurantId=";
