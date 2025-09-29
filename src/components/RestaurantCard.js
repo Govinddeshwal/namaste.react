@@ -12,7 +12,7 @@ const RestaurantCard = (props) => {
       />
 
       <h3 className="font-bold pb-1">{name}</h3>
-      <h4 className="cuisines">{cuisines}</h4>
+      <h4 className="cuisines">{cuisines.join(", ")}</h4>
       <h4 className="costfortwo">{costForTwo}</h4>
       <h4 className="avg-rating">{avgRating}</h4>
     </div>

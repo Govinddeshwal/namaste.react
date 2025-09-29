@@ -55,3 +55,13 @@ import {component} from "path"
 useState() - superPowerful state variables in react
 useEffects()
 note : whenever a state variable changes the react will rerender the component.
+
+# Redux Toolkit
+
+- install @reduxjs/toolkit and react-redux
+- build our store
+- connect store to our app
+- slice(cartSlice)
+- dispatch(action)
+- function call(reducer)
+- selector
