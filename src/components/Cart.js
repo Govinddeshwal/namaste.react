@@ -23,7 +23,7 @@ const Cart = () => {
         </button>
         {cardItems.length === 0 && (
           <h1 className="m-2 p-2 text-lg font-bold">
-            Your Card is empty! Please add some items.
+            Your Cart is empty! Please add some items.
           </h1>
         )}
         <ItemList items={cardItems} />

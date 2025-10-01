@@ -65,3 +65,19 @@ note : whenever a state variable changes the react will rerender the component.
 - dispatch(action)
 - function call(reducer)
 - selector
+
+# Type of Testing
+
+- Unit Testing
+- Integration Testing
+- End to End Testing (e2e Testing)
+
+# Setting up testing in our app
+
+- Install react Testing library
+- Install jest
+- Install babel dependencies
+- configure babel
+- configure parcel config file to disable the default babel
+- npx create-jest
+- Install jsdom library
