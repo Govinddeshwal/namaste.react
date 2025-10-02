@@ -81,3 +81,6 @@ note : whenever a state variable changes the react will rerender the component.
 - configure parcel config file to disable the default babel
 - npx create-jest
 - Install jsdom library
+- Install @babel/preset-react to make jsx work in test cases
+- Include @babel/preset-react inside my babel config
+- npm i -D @testing-library/jest-dom
